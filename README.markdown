@@ -8,7 +8,7 @@ it forgoes the check to the webservice (but you can override this).
 
 ## handsetdetection.com
 
-There’s tens of thousands of mobile phones out there, all slightly different, which makes working with mobile technologies tricky and time consuming. So, we created Handset Detection. A real time, self updating, database of thousands of mobile phones.
+There's tens of thousands of mobile phones out there, all slightly different, which makes working with mobile technologies tricky and time consuming. So, we created Handset Detection. A real time, self updating, database of thousands of mobile phones.
 
 * massive database of over 25000 mobile devices (and growing daily) means we've got you covered. 
 * Never be out of date! Handset Detection is updating itself with new handsets all the time
@@ -17,7 +17,7 @@ There’s tens of thousands of mobile phones out there, all slightly different, wh
 
 ## Install
 
-script/plugin install git://github.com/wooki/handset_detection.git
+	script/plugin install git://github.com/wooki/handset_detection.git
 
 Simple.
 
