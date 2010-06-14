@@ -1,0 +1,17 @@
+development:
+  host: http://c1.handsetdetection.com
+  token: xxx	
+  username: xxx
+  password: xxx
+
+test:
+  host: http://c1.handsetdetection.com	
+  token: xxx	
+  username: xxx
+  password: xxx
+
+production:
+  host: http://c1.handsetdetection.com	
+  token: xxx	
+  username: xxx
+  password: xxx
