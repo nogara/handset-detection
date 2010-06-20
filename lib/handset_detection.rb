@@ -71,13 +71,13 @@ module ActionController #:nodoc:
 			# got to handsetdetection.com IF we have a mobile, or we forced it
 			profile_xml = nil
 			if force or device != 'desktop'
-				profile_xml = get_handsetdetection_xml
+				profile_xml = get_handsetdetection_xml(options)
 			end
 			
 			{:device => device, :profile => profile_xml}
 		end
 		
-		def get_handsetdetection_xml()
+		def get_handsetdetection_xml(options)
 			
 			wap = ""
 			if request.headers["x-wap-profile"] and request.headers["x-wap-profile"] != ''
